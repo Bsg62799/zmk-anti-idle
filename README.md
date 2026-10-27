@@ -61,6 +61,7 @@ manifest:
 ### Configuration Options
 
 - **`interval-ms`**: Time between anti-idle actions (default: 30000ms)
+- Actions run on a fixed interval; keyboard and sensor activity do not reset the timer.
 - **`bindings`**: Actions to perform (mouse movements, key presses, etc.)
 - **`tap_ms`**: Duration of each action (default: 40ms)
 - **`wait_ms`**: Delay between actions (default: 200ms)
